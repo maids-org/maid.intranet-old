@@ -48,7 +48,7 @@ const processDirectory: Processes = {
     autoSizing: false,
     backgroundColor: "#000",
     Component: dynamic(() => import("components/apps/Mail")),
-    icon: "/icons/telegram.png",
+    icon: "/icons/mail.png",
     lockAspectRatio: false,
     title: "Mail",
     defaultSize: {
