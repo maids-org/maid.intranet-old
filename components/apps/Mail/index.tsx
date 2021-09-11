@@ -1,6 +1,7 @@
 import StyledMail from "components/apps/Mail/StyledMail";
 import type { ComponentProcessProps } from "components/system/Apps/RenderComponent";
 import { useProcesses } from "contexts/process";
+import Image from "next/image";
 import { useState } from "react";
 
 const Mail = ({ id }: ComponentProcessProps): JSX.Element => {
@@ -41,22 +42,30 @@ const Mail = ({ id }: ComponentProcessProps): JSX.Element => {
             justifyContent: "center",
           }}
         >
+          <Image
+            src="/icons/48x48/mail.png"
+            alt="Mail"
+            layout="fixed"
+            width="64"
+            height="64"
+          />
           <h2>
-            In order to let vscode keymaps work correctly, we opened it in a new
-            global window!
+            In order to let the mail application work correctly, we opened it in
+            a new global window! Further improvements will be supplemented
+            later...
           </h2>
           <br />
           <h3>
-            If it didn&apos;t appear, press &quot;spawn the window&quot; button
-            below:
+            If an external window did not appear, press &quot;Move to the
+            window&quot; button below:
           </h3>
           <button
             type="button"
             style={{
               margin: 10,
               padding: 10,
-              background: "black",
-              color: "white",
+              background: "white",
+              color: "black",
               border: "none",
               borderRadius: 5,
             }}
@@ -69,7 +78,7 @@ const Mail = ({ id }: ComponentProcessProps): JSX.Element => {
               );
             }}
           >
-            Spawn the window
+            Move to the window
           </button>
         </div>
       </article>
