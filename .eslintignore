@@ -1,0 +1,5 @@
+.husky/_
+.next
+node_modules
+out
+public
