@@ -11,10 +11,26 @@ const processDirectory: Processes = {
   Intranet: {
     autoSizing: false,
     backgroundColor: "#000",
-    Component: dynamic(() => import("components/apps/Maids")),
-    icon: "/icons/jsdos.png",
+    Component: dynamic(() => import("components/apps/Intranet")),
+    icon: "/icons/intranet.png",
     lockAspectRatio: false,
     title: "Intranet",
+    defaultSize: {
+      height: 500,
+      width: 400,
+    },
+  },
+  Maids: {
+    autoSizing: false,
+    backgroundColor: "#000",
+    Component: dynamic(() => import("components/apps/Maids")),
+    icon: "/icons/maids.png",
+    lockAspectRatio: false,
+    title: "Mad Maids",
+    defaultSize: {
+      height: 500,
+      width: 400,
+    },
   },
   JSDOS: {
     autoSizing: true,
