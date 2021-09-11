@@ -44,6 +44,18 @@ const processDirectory: Processes = {
       width: 400,
     },
   },
+  Mail: {
+    autoSizing: false,
+    backgroundColor: "#000",
+    Component: dynamic(() => import("components/apps/Mail")),
+    icon: "/icons/telegram.png",
+    lockAspectRatio: false,
+    title: "Mail",
+    defaultSize: {
+      height: 500,
+      width: 400,
+    },
+  },
   JSDOS: {
     autoSizing: true,
     backgroundColor: "#000",
