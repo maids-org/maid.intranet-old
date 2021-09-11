@@ -32,6 +32,18 @@ const processDirectory: Processes = {
       width: 400,
     },
   },
+  Telegram: {
+    autoSizing: false,
+    backgroundColor: "#000",
+    Component: dynamic(() => import("components/apps/Telegram")),
+    icon: "/icons/telegram.png",
+    lockAspectRatio: false,
+    title: "Telegram",
+    defaultSize: {
+      height: 500,
+      width: 400,
+    },
+  },
   JSDOS: {
     autoSizing: true,
     backgroundColor: "#000",
