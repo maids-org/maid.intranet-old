@@ -8,6 +8,14 @@ const processDirectory: Processes = {
     icon: "/icons/explorer.png",
     title: "File Explorer",
   },
+  Intranet: {
+    autoSizing: false,
+    backgroundColor: "#000",
+    Component: dynamic(() => import("components/apps/Maids")),
+    icon: "/icons/jsdos.png",
+    lockAspectRatio: false,
+    title: "Intranet",
+  },
   JSDOS: {
     autoSizing: true,
     backgroundColor: "#000",
