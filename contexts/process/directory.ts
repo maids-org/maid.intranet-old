@@ -8,16 +8,28 @@ const processDirectory: Processes = {
     icon: "/icons/explorer.png",
     title: "File Explorer",
   },
+  Timetable: {
+    autoSizing: false,
+    backgroundColor: "#000",
+    Component: dynamic(() => import("components/apps/Timetable")),
+    icon: "/icons/intranet.png",
+    lockAspectRatio: false,
+    title: "Timetable",
+    defaultSize: {
+      height: 400,
+      width: 600,
+    },
+  },
   Intranet: {
     autoSizing: false,
     backgroundColor: "#000",
     Component: dynamic(() => import("components/apps/Intranet")),
     icon: "/icons/intranet.png",
     lockAspectRatio: false,
-    title: "Intranet",
+    title: "Maidnet",
     defaultSize: {
-      height: 500,
-      width: 400,
+      height: 400,
+      width: 500,
     },
   },
   Maids: {
