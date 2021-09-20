@@ -12,7 +12,7 @@ const processDirectory: Processes = {
     autoSizing: false,
     backgroundColor: "#000",
     Component: dynamic(() => import("components/apps/Timetable")),
-    icon: "/icons/intranet.png",
+    icon: "/icons/timetable.png",
     lockAspectRatio: false,
     title: "Timetable",
     defaultSize: {
