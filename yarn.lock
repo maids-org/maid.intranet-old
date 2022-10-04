@@ -6564,9 +6564,9 @@ timers-browserify@2.0.12, timers-browserify@^2.0.4:
     setimmediate "^1.0.4"
 
 tinymce@^5.5.1:
-  version "5.9.1"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.9.1.tgz#95100cd6748bbe5a5dfaaf8353f129756a0a5372"
-  integrity sha512-GaG15OhQB1zR2L63fywhEAViTxkAlhX5JbA+48+O0zCo1FwDuQ8iUVi/FzaOX9Uo7ULp+Y2gu4r3P4ZNueDVPQ==
+  version "5.10.5"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-5.10.5.tgz#02aef6a67e915f1559e51fa8fb007270d9666778"
+  integrity sha512-nFKtLhmoRtExBxUfv06JlkbQWux5D+d115vxSRAqUmccZdrtpFvOIYwZmikvulLdM9pfEpvO0B+RQ2qFV/+R7w==
 
 tinyqueue@^1.2.3:
   version "1.2.3"
